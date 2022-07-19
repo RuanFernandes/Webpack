@@ -2,9 +2,9 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx webpack --config webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/RuanFernandes/Webpack/issues"
   },
-  "homepage": "https://github.com/RuanFernandes/Webpack#readme"
+  "homepage": "https://github.com/RuanFernandes/Webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
