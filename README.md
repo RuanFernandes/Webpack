@@ -1,6 +1,7 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://seeklogo.com/images/W/webpack-logo-9E66EE203A-seeklogo.com.png" alt="Project logo"></a>
+  <!-- <a href="" rel="noopener"> -->
+ <img width=200px height=200px src="https://seeklogo.com/images/W/webpack-logo-9E66EE203A-seeklogo.com.png" alt="Project logo">
+    <!-- </a> -->
 </p>
 
 <h3 align="center">Webpack learning repository</h3>
